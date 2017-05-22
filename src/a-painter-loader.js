@@ -128,7 +128,7 @@ AFRAME.registerComponent('a-painter-loader', {
       } else {
         self.loadJSON(JSON.parse(buffer));
       }
-      self.el.emit('model-painted', {});
+      self.el.emit('model-loaded', {});
     });
   }
 
